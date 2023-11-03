@@ -1,0 +1,53 @@
+label
+{
+  font-weight: normal;
+  padding: 12px 12px 12px 0px;
+  display: inline-block;
+}
+.form{
+		position: relative;
+		z-index: 1 ;
+		background: lightgray;
+		max-width: 375px;
+		margin: 0 auto 100px;
+		padding: 45px;
+		text-align:center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.65),0 5px 5px 0 rgba(0, 0, 0, 0.24);
+		border: 1px solid; 
+	}
+
+.error{
+  color: red;
+  font-size: 14px;
+}
+
+.col-25 {
+  float: left;
+  width: 40%;
+  margin-top: 1px;
+}
+.col-75 {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+}
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.message {
+  color: #ff0000;
+  font-size: 14px;
+}
+
+/* Style the container */
+.container {
+  position:relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 0 auto;
+}
+body{
+background: #FFFFFF;
+}
